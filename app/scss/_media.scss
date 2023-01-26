@@ -1,0 +1,132 @@
+@media(max-width:1160px){
+    .footer__contact{
+        flex-direction: column;
+        width: 25%;
+    }
+    .footer__email{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+@media(max-width:1000px){
+    .home__item{
+        width: auto;
+    }
+    .home__block-box{
+        flex-wrap: wrap;
+        gap: 6rem;
+    }
+}
+
+
+
+@media(max-width:860px){
+    .footer__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1.5rem;
+    }
+    .footer__icon{
+        margin-left: unset;
+    }
+    .footer__copyright,
+    .footer__contact{
+        width: auto;
+    }
+    .footer__contact{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__email{
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+}
+
+
+
+@media(max-width:768px){
+    .header__title{
+        font-size: 4rem;
+    }
+    .header__language{
+        font-size: 2rem;
+    }
+}
+@media(max-width:635px){
+    .header__title{
+        font-size: 3rem;
+    }
+    .header__language{
+        font-size: 1.6rem;
+    }
+    .nav-icon__middle::after,
+    .nav-icon__middle::before{
+        width: 35px;
+    }
+    .home__item{
+        width: 33.3%;
+    }
+    .home__block {
+        margin-top: 5.5rem;
+    }
+    .home__item-img {
+        margin-bottom: 3rem;
+    }
+    .home__item-title{
+        font-size: 3.8rem;
+    }
+}
+@media(max-width:520px){
+    .header__title{
+        display: none;
+    }
+    .home__block-title,
+    .home__item-title{
+        font-size: 18px;
+    }
+    .home__block-text{
+        font-size: 16px;
+    }
+    .home__block-box{
+        gap: 3rem;
+    }
+    .home__block{
+        margin-top: 4.5rem;
+    }
+    .home__block-box{
+        margin-bottom: 3.5rem;
+    }
+    .nav-icon{
+        margin-right: 0;
+    }
+    .footer__copyright{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .home__block-text{
+        padding-bottom: 3rem;
+    }
+    .footer__email{
+        margin-left: 0;
+    }
+    .menu__list li a{
+        font-size: 2.2rem;
+    }
+    .menu__title{
+        font-size: 2.8rem;
+    }
+    .menu__block-title{
+        font-size: 2.6rem;
+    }
+    .menu__copyright{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
