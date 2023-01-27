@@ -1,0 +1,20 @@
+.education-site {
+    padding-top: 9.5rem;
+    padding-bottom: 7rem;
+}
+.education-site__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education-site__title {
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.education-site__text {
+    margin-bottom: 3.5rem;
+    max-width: 1000px;
+    text-align: center;
+}

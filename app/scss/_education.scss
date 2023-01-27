@@ -1,0 +1,26 @@
+.education {
+    padding-top: 18rem;
+    padding-bottom: 22rem;
+}
+.education__inner {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.education__item {
+    width: 33%;
+}
+.education__item-img img{
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.education__item-button {
+    display: block;
+    width: 22.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5.6rem;
+    text-align: center;
+}

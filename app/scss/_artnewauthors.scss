@@ -1,0 +1,32 @@
+.surname__inner {
+    padding-top: 9rem;
+    padding-bottom: 24rem;
+    display: flex;
+}
+.surname__img {
+    flex-shrink: 0;
+}
+.surname__content {
+    max-width: 86rem;
+    margin-left: 11rem;
+}
+.surname__content-title {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.surname__content-text p{
+    margin-bottom: 3rem;
+}
+.surname__content-btn {
+    width: 27.7rem;
+    height: 5.6rem;
+    border: none;
+    background-color: rgb(190, 141, 109);;
+    color: #fff;
+    font-size: 2.4rem;
+    border-radius: 30px;
+}
+
+  

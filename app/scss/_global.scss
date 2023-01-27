@@ -8,7 +8,9 @@ body {
 	font-family: 'Anglecia Pro Text';
 	font-weight: 400;
 	color: #000;
-}
+	background-color: #fbfbf3;
+// 	Anglecia Pro Display Medium
+ }
 html{
 	font-size: 10px;
 }
@@ -24,7 +26,13 @@ button{
 	cursor: pointer;
 }
 .container{
-	max-width: 134rem;
+	max-width: 137rem;
+	margin: 0 auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+.container-artwork{
+	max-width: 152rem;
 	margin: 0 auto;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -34,4 +42,12 @@ button{
 	margin: 0 auto;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
+}
+.button{
+	height: 5.6rem;
+	border: none;
+    background-color: rgb(190, 141, 109);;
+    color: #fff;
+    font-size: 2.4rem;
+    border-radius: 30px;
 }

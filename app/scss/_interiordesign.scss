@@ -1,0 +1,32 @@
+.design-interior {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
+.design-interior__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.design-interior__item {
+    max-width: 950px;
+    margin-bottom: 6.5rem;
+}
+.design-interior__item-title {
+    margin-bottom: 3.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.design-interior__item-text p{
+    margin-top: 3rem;
+    text-align: center;
+}
+.design-interior__button {
+    display: block;
+    width: 22.7rem;
+    text-align: center;
+    line-height: 5.6rem;
+    margin-left: auto;
+    margin-right: auto;
+}

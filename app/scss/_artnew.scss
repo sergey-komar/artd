@@ -1,0 +1,27 @@
+.art-new {
+    padding-top: 5rem;
+    padding-bottom: 6.5rem;
+}
+.art-new__iiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.art-new__img img{
+    margin-bottom: 5.5rem;
+}
+.art-new__text {
+    max-width: 1000px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.art-new__button-left {
+    width: 22.7rem;
+}
+
+.art-new__button-right {
+    margin-left: 3rem;
+    width: 27.7rem;
+}

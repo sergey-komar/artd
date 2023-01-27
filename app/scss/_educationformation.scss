@@ -1,0 +1,42 @@
+.education-information {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+.education-information__title {
+    margin-bottom: 5.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.education-information__block {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4.5rem;
+}
+.education-information__item {
+    margin-bottom: 5rem;
+    width: 31%;
+}
+.education-information__item-title {
+    margin-bottom: 2.5rem;
+    padding: .1rem;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #c59375;
+    border-bottom: 1px solid #c59375;
+}
+.education-information__item-text {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.education-information__item-btn {
+    width: 22.7rem;
+    display: block;
+    line-height: 5.6rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
