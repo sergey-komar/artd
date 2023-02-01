@@ -8,18 +8,20 @@
 .slider {
     margin-bottom: 4rem;
 }
-.slider__big {
-}
+
 .slider__big-img img{
+    width: 1000px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
-.slider__thumb {
-}
+
 .slider__thumb-img img{
     width: 125px;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 .slider__wrapper-thumb{
     max-width: 93rem;
@@ -31,9 +33,11 @@
     font-size: 2.4rem;
     font-weight: 600;
     text-align: center;
+    color: #000;
 }
 .design-work__text{
     max-width: 1000px;
+    color: #000;
 }
 .design-work__text p{
     margin-bottom: 2rem;

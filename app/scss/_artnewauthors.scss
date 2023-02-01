@@ -6,6 +6,11 @@
 .surname__img {
     flex-shrink: 0;
 }
+.surname__img img{
+    width: 380px;
+    height: 500px;
+    object-fit: cover;
+}
 .surname__content {
     max-width: 86rem;
     margin-left: 11rem;
@@ -27,6 +32,9 @@
     color: #fff;
     font-size: 2.4rem;
     border-radius: 30px;
+}
+.surname .header__title{
+    transform: translateY(-80px);
 }
 
   

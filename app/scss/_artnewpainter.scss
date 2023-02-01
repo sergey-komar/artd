@@ -13,11 +13,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 1.5rem;
+    column-gap: 6.5rem;
 }
 .authors__item {
-    width: 320px;
-    margin-bottom: 10rem;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15rem;
 }
 .authors__item-img{
     height: 100%;
@@ -27,12 +28,17 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    object-fit: cover;
 }
 .authors__item-title {
     width: 12.5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5rem;
     font-size: 3rem;
     font-family: 'Anglecia Pro Display';
     text-align: center;
+}
+.authors .header__title{
+    transform: translateY(-80px);
 }

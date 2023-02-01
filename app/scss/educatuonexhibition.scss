@@ -21,3 +21,25 @@
     max-width: 1000px;
     text-align: center;
 }
+
+.embed{
+    position: relative;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+.embed::before{
+    display: block;
+    content: "";
+    padding-top: 56.25%;// картинка видео 16 на 9 и от сбда получается таккой падинг
+}
+.embed iframe, video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

@@ -1,3 +1,10 @@
+@media (max-width:1170px){
+    .modal__block{
+        max-width: 700px;
+    }
+
+}
+
 @media(max-width:1160px){
     .footer__contact{
         flex-direction: column;
@@ -6,6 +13,10 @@
     .footer__email{
         margin-left: 0;
         margin-top: 1rem;
+    }
+
+    .education__item{
+        width: 45%;
     }
 }
 
@@ -21,6 +32,25 @@
         gap: 6rem;
     }
 }
+
+
+//ARTNEWAUTHORS
+@media (max-width:950px) {
+    .surname__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .surname__img img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .surname__content{
+        margin-left: 0;
+    }
+}
+
+
 
 
 
@@ -47,10 +77,41 @@
         margin-top: 0;
         margin-left: 1rem;
     }
+
+
+    .header__left-title{
+        font-size: 2rem;
+    }
+    .slider__big-img img{
+        height: 400px;
+    }
+    .design-work{
+        padding-bottom: 2.5rem;
+    }
 }
 
 
+//ARTNEWPAINTER
+@media (max-width:780px){
+    .author-work__block{
+        justify-content: center;
+    }
+    .author-work__title{
+        text-align: center;
+    }
+    // .author-work__item-img img{
+    //     width: 50%;
+    // }
+    // .author-work__item {
+    //     width: 100%;
+    // }
+    .author-work__item {
+        width: 280px;
+    }
+}
 
+
+//
 @media(max-width:768px){
     .header__title{
         font-size: 4rem;
@@ -58,7 +119,51 @@
     .header__language{
         font-size: 2rem;
     }
+
+
+
+    .education-information__item{
+        width: 100%;
+    }
+    .education-information {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    .education-information__title{
+        margin-bottom: 2.5rem;
+        font-size: 2rem;
+    }
+    .education-information__item-title{
+        width: 150px;
+        margin-bottom: 0.7rem;
+        font-size: 1.8rem;
+    }
+    .education-information__item-text{
+        font-size: 1.6rem;
+    }
+    .education-information__item-btn{
+        width: 16rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+    }
+
+
+    .education__item{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .modal__block{
+        max-width: 400px;
+    }
+    .modal__slider-item img{
+        height: 400px;
+    }
 }
+
+
+//
 @media(max-width:635px){
     .header__title{
         font-size: 3rem;
@@ -83,7 +188,41 @@
         font-size: 3.8rem;
     }
 }
-@media(max-width:520px){
+
+
+
+
+//ARTNEW
+@media (max-width:580px){
+    .art-new__button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .art-new__button-left{
+        margin-bottom: 1rem;
+        width: 15rem;
+        height: 4.5rem;
+        font-size: 2rem;
+    }
+    .art-new__button-right{
+        margin-left: 0;
+        width: 23rem;
+        height: 5.2rem;
+        font-size: 2rem;
+    }
+   
+    .art-new__img img{
+        margin-bottom: 3.5rem;
+    }
+   
+}
+
+
+
+
+
+@media(max-width:550px){
     .header__title{
         display: none;
     }
@@ -129,4 +268,192 @@
         font-size: 1.8rem;
         text-align: center;
     }
+
+
+
+
+    .surname__inner{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .surname__content-text p{
+        font-size: 1.6rem;
+    }
+    .surname__content-title {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .surname__content-btn{
+        display: block;
+        width: 20rem;
+        height: 4.5rem;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .art-new__text{
+        font-size: 1.6rem;
+    }
+
+
+
+
+    .authors__inner {
+        padding-top: 2.5rem;
+        padding-bottom: 0rem;
+    }
+    .authors__item {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 7rem;
+    }
+    .authors__title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .authors__item-title{
+        width: 13rem;
+        font-size: 1.8rem;
+    }
+
+
+
+    .author-work__title{
+        font-size: 2rem;
+    }
+    .author-work__inner {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .author-work__item-title{
+        margin-bottom: .5rem;
+        font-size: 1.8rem;
+    }
+    .author-work__item-text{
+        font-size: 1.6rem;
+    }
+
+
+
+    .design-work__title{
+        font-size: 2rem;
+    }
+    .design-work__text{
+        font-size: 1.6rem;
+    }
+    .slider__big-img img{
+        height: 250px;
+    }
+    .slick-dots li button{
+        width: 8px;
+        height: 8px;
+    }
+    .slick-dots{
+        transform: translateY(-4rem);
+    }
+    .design-work{
+        padding-top: 3.5rem;
+    }
+
+
+
+    .design-interior {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .design-interior__item-title{
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+    .design-interior__item-text p{
+        font-size: 1.6rem;
+    }
+    .design-interior__item{
+        margin-bottom: 3.5rem;
+    }
+    .design-interior__item-text p{
+        margin-top: 1.5rem;
+    }
+    .design-interior__button{
+        width: 16rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+    }
+
+
+    .education-site {
+        padding-top: 1.5rem;
+        padding-bottom: 0rem;
+    }
+    .education-site__title{
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .education-site__text{
+        font-size: 1.6rem;
+    }
+
+
+    .education__item-img img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1.5rem;
+    }
+    .education {
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+    .education__item-button {
+        width: 16rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+    }
+    .footer__phone{
+        margin-bottom: 1.5rem;
+    }
+    .footer__contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .educatuon-exhibition__title{
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+    .educatuon-exhibition__text{
+        font-size: 1.6rem;
+    }
+    .educatuon-exhibition {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .video-iframe{
+        height: 300px;
+    }
+
+    .home__item-img img{
+        width: 200px;
+        height: 150px;
+    }
+    .slider__page-img{
+        height: 300px;
+    }
 }
+
+
+@media (max-width:450px){
+    .modal__block{
+        max-width: 300px;
+    }
+    .modal__slider-item img{
+        height: 300px;
+    }
+}
+
+
+
+
+

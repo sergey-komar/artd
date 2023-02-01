@@ -1,0 +1,21 @@
+.author-work__item-img {
+    position: relative;
+}
+.video__button{
+    display: block;
+    position: absolute;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    width: 68px;
+    height: 48px;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: transparent;
+}
+.video__button-shape{
+    fill: #ff0000;
+}
+.video__button-icon{
+    fill: #fff;
+}
